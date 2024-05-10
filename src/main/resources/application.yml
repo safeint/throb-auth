@@ -1,0 +1,17 @@
+server:
+  port: 33784
+
+spring:
+  application:
+    name: throb-auth
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/throb_cam
+    username: root
+    password: throb_chaim_623
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri:
